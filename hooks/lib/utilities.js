@@ -6,7 +6,7 @@
 
 var path = require("path");
 var fs = require("fs");
-var cordovalib = require('cordova-lib');
+var cordovalib = require("cordova").cordova_lib;
 
 /**
  * Used to get the path to the build.gradle file for the Android project.
