@@ -79,16 +79,6 @@
       </dict>
     </config-file>
 
-    <podspec>
-        <config>
-            <source url="https://github.com/CocoaPods/Specs.git"/>
-        </config>
-        <pods>
-            <pod name="Fabric" spec="~> 1.10.1" />
-            <pod name="Crashlytics" spec="~> 3.13.1" />
-        </pods>
-    </podspec>
-
     <header-file src="src/ios/FirebaseCrashlyticsPlugin.h"/>
     <source-file src="src/ios/FirebaseCrashlyticsPlugin.m"/>
     <header-file src="src/ios/AppDelegate+FirebaseCrashlyticsPlugin.h"/>
