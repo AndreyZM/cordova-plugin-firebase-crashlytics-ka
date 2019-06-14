@@ -27,7 +27,7 @@ module.exports = {
         // File format information: http://www.monobjc.net/xcode-project-file-format.html
         var xcodeProject = xcode.project(xcodeProjectPath);
         xcodeProject.parseSync();
-        var script = '"' + '\\"${PROJECT_DIR}/' + appName + '/Fabric/run\\" ' + pluginConfig.apiKey + " " + pluginConfig.apiSecret + '"';
+        var script = '"' + '\\"${PROJECT_DIR}/' + appName + '/Plugins/cordova-plugin-firebase-crashlytics-ka/Fabric/run\\" ' + pluginConfig.apiKey + " " + pluginConfig.apiSecret + '"';
 
         // Generate a unique ID for our new build phase.
         var id = xcodeProject.generateUuid();
