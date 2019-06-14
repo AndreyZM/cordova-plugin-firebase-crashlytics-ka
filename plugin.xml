@@ -35,8 +35,6 @@
       </feature>
     </config-file>
 
-    <dependency id="cordova-plugin-google-services-ka" version="~1.0.0"/>
-
     <framework src="firebase-crashlytics.gradle" custom="true" type="gradleReference"/>
 
     <framework src="com.google.firebase:firebase-core:$ANDROID_API_VERSION" />
