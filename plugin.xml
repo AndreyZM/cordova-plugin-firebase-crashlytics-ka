@@ -56,6 +56,8 @@
     <source-file src="src/android/cordova/plugin/firebase/crashlytics/SetDoubleHandler.java" target-dir="src/cordova/plugin/firebase/crashlytics"/>
     <source-file src="src/android/cordova/plugin/firebase/crashlytics/SetFloatHandler.java" target-dir="src/cordova/plugin/firebase/crashlytics"/>
     <source-file src="src/android/cordova/plugin/firebase/crashlytics/SetIntHandler.java" target-dir="src/cordova/plugin/firebase/crashlytics"/>
+    <source-file src="src/android/cordova/plugin/firebase/crashlytics/SetUserIdentifierHandler.java" target-dir="src/cordova/plugin/firebase/crashlytics"/>
+    
 
   </platform>
 
