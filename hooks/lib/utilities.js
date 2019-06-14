@@ -30,7 +30,7 @@ module.exports = {
      * @returns {string} The value of the name element in config.xml.
      */
     getAppName: function(context) {
-        var ConfigParser = context.requireCordovaModule('cordova').cordova_lib.configparser;
+        var ConfigParser = require("cordova-common").ConfigParser;
         var config = new ConfigParser("config.xml");
         return config.name();
     },
